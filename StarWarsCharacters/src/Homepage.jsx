@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import characters from './character-info.json'
+import heroes from './heroes-info.json'
 import villains from './villains-info.json'
 
 function Homepage() {
@@ -10,12 +10,12 @@ function Homepage() {
     <>
       <div className='character-index'>
         <p className='blue'>Heroes:</p>
-        {characters.map( (characters, index) => (
+        {heroes.map( (heroes, index) => (
 
-          <div className="linkToEachCharacter" key={index} style={{display: 'inline-block'}} onClick={() => navigate(characters.page)}>
+          <div className="linkToEachCharacter" key={index} style={{display: 'inline-block'}} onClick={() => navigate(heroes.page)}>
 
-            <img className="previewPic" src={characters.image} alt={`Small image of ${characters.name}`} />
-            <h2>{characters.name}</h2>
+            <img className="previewPic" src={heroes.image} alt={`Small image of ${heroes.name}`} />
+            <h2>{heroes.name}</h2>
 
           </div>
         ))}
