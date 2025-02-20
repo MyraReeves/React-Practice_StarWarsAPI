@@ -12,7 +12,7 @@ function Homepage() {
         <p className='blue'>Heroes:</p>
         {heroes.map( (heroes, index) => (
 
-          <div className="linkToEachCharacter" key={index} style={{display: 'inline-block'}} onClick={() => navigate(heroes.page)}>
+          <div className="linkToEachCharacter" key={index} style={{display: 'inline-block'}} onClick={() => navigate(heroes.number)}>
 
             <img className="previewPic" src={heroes.image} alt={`Small image of ${heroes.name}`} />
             <h2>{heroes.name}</h2>
@@ -25,7 +25,7 @@ function Homepage() {
       <p className='red'>Villains:</p>
       {villains.map( (villains, index) => (
 
-        <div className="linkToEachCharacter2" key={index} style={{display: 'inline-block'}} onClick={() => navigate(villains.page)}>
+        <div className="linkToEachCharacter2" key={index} style={{display: 'inline-block'}} onClick={() => navigate(villains.number)}>
 
           <img className="previewPic" src={villains.image} alt={`Small image of ${villains.name}`} />
           <h2>{villains.name}</h2>
