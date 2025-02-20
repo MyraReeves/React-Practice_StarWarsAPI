@@ -1,3 +1,18 @@
+.error {
+  color: gold;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  margin: -120px auto;
+}
+
+.error button {
+  margin-top: 30px;
+  color: lightskyblue;
+  background-color: black;
+  border: 1px double goldenrod;
+}
+
 header {
   background-color: black;
   width: 100%;
