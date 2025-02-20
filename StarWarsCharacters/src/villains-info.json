@@ -2,7 +2,7 @@
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/BobaFett.png?raw=true",
     "name": "Boba Fett",
-    "page": "boba-fett",
+    "page": "BobaFett",
     "number": "22"
   },
   {
@@ -20,7 +20,7 @@
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/KyloRen.png?raw=true",
     "name": "Kylo Ren",
-    "page": "kylo-ren",
+    "page": "KyloRen",
     "number": "89"
   },
   {
