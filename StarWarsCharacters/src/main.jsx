@@ -4,10 +4,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import Header from './Header.jsx'
+import PageNotFound from './PageNotFound.jsx'
 
 const router = createBrowserRouter(
   [
-    {path:"/", element: <App/>}
+    {path:"/", element: <App/>},
+    {path:"*", element: <PageNotFound />}
   ]
 )
 
