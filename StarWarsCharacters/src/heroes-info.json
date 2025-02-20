@@ -2,7 +2,7 @@
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/c3po.png?raw=true",
     "name": "C-3PO",
-    "page": "c-3po",
+    "page": "c3po",
     "number": "2"
   },
   {
@@ -14,19 +14,19 @@
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/han.png?raw=true",
     "name": "Han Solo",
-    "page": "han-solo",
+    "page": "han",
     "number": "14"
   },
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/leia.png?raw=true",
     "name": "Leia Organa",
-    "page": "leia-organa",
+    "page": "leia",
     "number": "5"
   },
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/luke.png?raw=true",
     "name": "Luke Skywalker",
-    "page": "luke-skywalker",
+    "page": "luke",
     "number": "1"
   },
   {
@@ -38,13 +38,13 @@
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/obi-wan.png?raw=true",
     "name": "Obi-Wan Kenobi",
-    "page": "obiwan-kenobi",
+    "page": "obi-wan",
     "number": "10"
   },
   {
     "image": "https://github.com/MyraReeves/UW_JS-320_Front-End_Application_Development_With_Javascript/blob/main/Assignment4/Star-Wars-Characters/src/images/r2d2.png?raw=true",
     "name": "R2-D2",
-    "page": "r2-d2",
+    "page": "r2d2",
     "number": "3"
   },
   {
