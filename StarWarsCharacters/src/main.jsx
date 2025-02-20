@@ -10,7 +10,7 @@ import Header from './Header.jsx'
 const router = createBrowserRouter(
   [
     {path:"/", element: <App/>},
-    {path:"/:characterName", element: <CharacterInfo/>},
+    {path:"/:number", element: <CharacterInfo/>},
     {path:"*", element: <PageNotFound />}
   ]
 )
